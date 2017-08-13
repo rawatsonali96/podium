@@ -6,7 +6,10 @@
 	max-width:100%;
     height:auto;
 	}
-	
+	.navbar-btn:hover {
+    color: red;
+}
+
 	
 	#cf img {
   position:absolute;
@@ -71,8 +74,9 @@ width:100%;
 }
 .navbar-nav{
 background:black;
-color:white;
+color:#fe6f5e;
 width:100%;
+
 }
 
 #but1{
@@ -80,8 +84,8 @@ width:100%;
 }
 .row2{
 margin-top:3%;
-margin-left:2%;
-margin-right:2%;
+margin-left:1%;
+margin-right:1%;
 }
 .well{
 margin-left:2%;

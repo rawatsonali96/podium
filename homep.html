@@ -3,29 +3,31 @@
    <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="effects.js"></script>
   </head>
  <body>
    <div class="container">
      <div class= "row">
-	   <ul class="nav navbar-nav">
-	   <li><a href="/">Home</a></li>
-	   <li><a href="#">Poetry</a></li>
-	   <li><a href="#">Friction</a></li>
-	   <li><a href="#">Startup</a></li>
-	   <li><a href="#">Politics</a></li>
-	   <li><a href="#">Unsung heroes</a></li>
-	   <li><a href="#">Recent/Opnion/Generic</a></li>
+	   <ul class="nav navbar-nav" >
+	   <li><a href="/" style="color:#fe6f5e;">Home</a></li>
+	   <li><a href="#" style="color:#fe6f5e;">Poetry</a></li>
+	   <li><a href="#" style="color:#fe6f5e;">Fiction</a></li>
+	   <li><a href="#" style="color:#fe6f5e;">Startup</a></li>
+	   <li><a href="#"style="color:#fe6f5e;">Politics</a></li>
+	   <li><a href="#" style="color:#fe6f5e;">Unsung heroes</a></li>
+	   <li><a href="#" style="color:#fe6f5e;">Recent/Opnion/Generic</a></li>
 	 <li>
-    <button type="button" class="btn btn-danger navbar-btn" id="but">You too can upload your articles here</button></li>
+    <button type="button" class="btn  navbar-btn" id="but" style="background-color:#fe6f5e;color:black;">You too can upload your articles here</button></li>
 	 <li>
-    <button type="button" class="btn btn-danger navbar-btn" id="but1">Sign up
+    <button type="button" class="btn  navbar-btn" id="but1" style="background-color:#fe6f5e;color:black;">Sign up
 	</button>
 	</li>
 	 <li>
-    <button type="button" class="btn btn-danger navbar-btn" id="but1">Log in
+    <button type="button" class="btn navbar-btn" id="but1" style="background-color:#fe6f5e;color:black;">Log in
 	</button>
 	</li>
 	  </ul>
@@ -37,64 +39,110 @@
 	 </div>
 	 <div class="row" >
 	    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"id="cf" >
-		 <img class="bottom" src="aboutus.jpg" />
-		 <img class="top" src="s.jpg" />
+		 <img class="bottom" src="img/writers1.jpg" />
+		 <img class="top" src="img/s.jpg" />
 		</div>
-			    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-color:black;opacity:.5;color:white">
+			    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-color:black;color:white;opacity:.8;font-size:150%">
 				Podium
 				</div>
 	 </div>
 	
 	  <div class="row" id="row1">
-	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 "><h1>Recent articles</h1></div>
-	  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 "><h1>Our sponsers</h1></div>
+	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" style="font-family:Didot"><h1>Recent articles</h1></div>
+	  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 "style="font-family:Didot"><h1>Our sponsers</h1></div>
 	  </div>
 	  <div class="row">
-	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-	  <div class="row"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style="margin-left:5%"><h1>poetry</h1></div></div>
+	 
+	  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" style="overflow-y:scroll;max-height:150%">
+	  <div class="row"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style="margin-left:5%;font-family:Garamond"><h1>poetry</h1></div></div>
 	   <div class="row row2">
-	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well"><div class="row"><img src="aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
-	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well"><div class="row"><img src="aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
-	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well"><div class="row"><img src="aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
+	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well hoverrow"><div class="row"><img src="img/aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
+	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well hoverrow"><div class="row"><img src="img/aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
+	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well hoverrow"><div class="row"><img src="img/aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
 	  </div>
-      <div class="row"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style="margin-left:5%"><h1>fiction</h1></div></div>
+      <div class="row"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style="margin-left:5%;font-family:Garamond"><h1>fiction</h1></div></div>
 	  <div class="row row2">
-	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well"><div class="row"><img src="aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
-	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well"><div class="row"><img src="aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
-	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well"><div class="row"><img src="aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
+	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well hoverrow"><div class="row"><img src="img/aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
+	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well hoverrow"><div class="row"><img src="img/aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
+	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well hoverrow"><div class="row"><img src="img/aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
 	  </div>
-	  <div class="row"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style="margin-left:5%"><h1>startup</h1></div></div>
+	  <div class="row"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style="margin-left:5%;font-family:Garamond"><h1>startup</h1></div></div>
 	  <div class="row row2">
-	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well"><div class="row"><img src="aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
-	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well"><div class="row"><img src="aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
-	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well"><div class="row"><img src="aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
+	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well hoverrow"><div class="row"><img src="img/aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
+	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well hoverrow"><div class="row"><img src="img/aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
+	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well hoverrow"><div class="row"><img src="img/aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
+	  </div>
+	  <div class="row"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style="margin-left:5%;font-family:Garamond"><h1>startup</h1></div></div>
+	  <div class="row row2">
+	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well hoverrow"><div class="row"><img src="img/aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
+	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well hoverrow"><div class="row"><img src="img/aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
+	  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 well hoverrow"><div class="row"><img src="img/aa.jpg"/></div><div class="row"><h3>tag line</h3><span>title name</span></div></div>
 	  </div>
 	  </div>
 	  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 	  <div class="row row2">
 	  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  ">
-	  <img src="aa.jpg" style="margin-top:10%;margin-left:10%;margin-bottom:10%;"/>
+	  <img src="img/aa.jpg" style="margin-top:10%;margin-left:5%;margin-bottom:10%;"/>
 	  </div>
 	  </div>
 	  <div class="row row2">
 	  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  ">
-	  <img src="aa.jpg" style="margin-top:10%;margin-left:10%;margin-bottom:10%;"/>
+	  <img src="img/aa.jpg" style="margin-top:10%;margin-left:5%;margin-bottom:10%;"/>
 	  </div>
 	  </div>
 	  <div class="row row2">
 	  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  ">
-	  <img src="img/aa.jpg" style="margin-top:10%;margin-left:10%;margin-bottom:10%;"/>
+	  <img src="img/aa.jpg" style="margin-top:10%;margin-left:5%;margin-bottom:10%;"/>
 	  </div>
 	  </div>
 	  <div class="row row2">
 	  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  ">
-	  <img src="aa.jpg" style="margin-top:10%;margin-left:10%;margin-bottom:10%;"/>
+	  <img src="img/aa.jpg" style="margin-top:10%;margin-left:5%;margin-bottom:10%;"/>
 	  </div>
 	  </div>
 	 </div>
-	   <div class="row" style="text-align:center;margin-top:2%">
-	     	   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-			     <a href="http://abouttheteam.com" style="font:Libre Baskerville">Know about our team</a>
+	   <div class="row" style="text-align:center;">
+	          <div class="row">
+	     	   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top:3%;margin-bottom:3%;ont-family:comicsans">
+			     <a href="http://abouttheteam.com" style="font-family:comicsans;font-size:150%;color:#fe6f5e;font-weight:bold">KNOW ABOUT OUR TEAM</a>
+			  </div>    
+				  <div class="row">
+				    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+ <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/nishi.jpg" alt="Los Angeles" style="width:100%;max-height:5%">
+    </div>
+
+    <div class="item">
+      <img src="img/aditi.jpg" alt="Chicago" style="width:100%;max-height:5%">
+    </div>
+
+    <div class="item">
+      <img src="img/gaurav.jpg" alt="New York" style="width:100%;max-height:5%">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+					</div>
+				  </div>
 			   </div> 
 	   </div>
 	      <div class="row" style="background-color:gray;color:white;margin-top:2%">
